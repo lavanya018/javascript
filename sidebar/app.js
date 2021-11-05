@@ -13,5 +13,5 @@ toggleBtn.addEventListener("click",function(){
 });
 
 closeBtn.addEventListener("click",function(){
-    sideBar.classList.contains("show-sidebar");
+    sideBar.classList.remove("show-sidebar");
 });
